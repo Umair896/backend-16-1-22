@@ -1,13 +1,13 @@
-// import http from "http";
+import http from "http";
 
-// const server = http.createServer((req, res) => {
-//   console.log("req", req);
-//   console.log("res", res);
-//   res.end("Hello World");
-//   res.writeHead(200, { "Content-Type": "application/json" });
-// });
+const server = http.createServer((req, res) => {
+  console.log("req", req);
+  console.log("res", res);
+  res.end("Hello World");
+  res.writeHead(200, { "Content-Type": "application/json" });
+});
 
-// server.listen(3000);
+server.listen(3000);
 
 //--------------------------------------------------
 
